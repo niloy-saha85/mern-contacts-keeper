@@ -1,7 +1,12 @@
-import { LOGIN_ERROR, LOGIN_USER, LOGOUT_USER } from "../types";
+import { LOGIN_ERROR, LOGIN_USER, LOGOUT_USER, SET_USER } from "../types";
 
 export const authReducer = (state, action) => {
   switch (action.type) {
+    case SET_USER:
+      return {
+        ...state,
+        user: action.payload
+      };
     case LOGIN_USER:
       return {
         ...state,

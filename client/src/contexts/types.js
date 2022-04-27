@@ -2,6 +2,8 @@
 export const LOGIN_USER = 'LOGIN_USER';
 export const LOGOUT_USER = 'LOGOUT_USER';
 export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const SET_USER = 'SET_USER';
+
 
 // Contact Types
 export const GET_ALL_CONTACTS = 'GET_ALL_CONTACTS';

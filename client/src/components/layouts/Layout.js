@@ -18,7 +18,7 @@ const Layout = () => {
           <main role="main" className="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
             <ContactState>
               <Routes>
-                <Route path='/contacts' element={<Contacts />} />
+                <Route path='/' element={<Contacts />} />
                 <Route path='/contacts/add' element={<AddContact />} />
                 <Route path='/contacts/:id' element={<ContactItem />} />
               </Routes>
